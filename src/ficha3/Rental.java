@@ -10,7 +10,7 @@ public class Rental
 		_movie = movie;
 		_daysRented = daysRented;
 	}
-
+//removi
     public double getAmount() {
 		double thisAmount = 0;
 
