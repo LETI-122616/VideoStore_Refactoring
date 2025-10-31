@@ -29,14 +29,12 @@ public class Customer
 
 		// header
 		String result = "Rental Record for " + getName() + "\n";
-		
+
 		for (Rental each: _rentals)
 		{
 			frequentRenterPoints += each.getFrequentRentalPoints();
-
-			// show figures for this rental
-			result += "\t" + each.getMovie().getTitle() + "\t" + each.getAmount() + "\n";
 			totalAmount += each.getAmount();
+			result += "\t" + each.getMovie().getTitle() + "\t" + each.getAmount() + "\n";
 		}
 
 		// add footer lines
