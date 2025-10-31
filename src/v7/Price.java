@@ -4,7 +4,7 @@ public class Price
 {
 	public enum Code {REGULAR, CHILDRENS, NEW_RELEASE}
 	
-	public ficha3.Price.Code	_priceCode;
+	public v7.Price.Code	_priceCode;
 
 	public Price()
 	{
