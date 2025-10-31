@@ -1,11 +1,10 @@
 package ficha3;
 
-import v9.Price;
-
 public class RegularPrice extends Price
 {
 
-    public RegularPrice() {
+    public RegularPrice()
+    {
     }
 
     public double getRentalAmount(int duration)
