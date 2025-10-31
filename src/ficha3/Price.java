@@ -1,6 +1,6 @@
 package ficha3;
 
-public class Price
+public abstract  class Price
 {
     public enum Code {REGULAR, CHILDRENS, NEW_RELEASE}
 
